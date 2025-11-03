@@ -1,9 +1,11 @@
 package main
 
 import (
-	"app/calendar"
-	"app/events"
+	"fmt"
 	"time"
+
+	"github.com/vladislav149/app/calendar"
+	"github.com/vladislav149/app/events"
 )
 
 func main() {
@@ -11,4 +13,6 @@ func main() {
 		Title:   "ass",
 		StartAt: time.Now(),
 	})
+
+	fmt.Println("Работает")
 }
